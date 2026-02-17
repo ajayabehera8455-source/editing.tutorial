@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CreatorBoost Studio | Editing & Growth Services</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+</head>
+
+<body>
+
+<div class="topbar">
+<div>🚀 Editing & Social Media Growth Services</div>
+<div>📧 support@creatorboost.com</div>
+</div>
+
+<nav>
+<div class="logo">CreatorBoost</div>
+<ul>
+<li><a href="#services">Services</a></li>
+<li><a href="#benefits">Benefits</a></li>
+<li><a href="#booking">Book Now</a></li>
+</ul>
+<a href="#booking" class="nav-btn">Get Started</a>
+</nav>
+
+<section class="hero">
+<div class="hero-overlay">
+<div class="hero-content">
+<h1>Grow Your Instagram & YouTube With Professional Support</h1>
+<p>We edit your videos, optimize your content & help you grow faster.</p>
+<button onclick="scrollToBooking()">Start Now</button>
+</div>
+</div>
+</section>
+
+<section class="section" id="services">
+<h2>Our Services</h2>
+<div class="grid">
+
+<div class="card">
+<h3>🎬 Professional Video Editing</h3>
+<p>Reels, Shorts, YouTube videos with trending transitions & effects.</p>
+</div>
+
+<div class="card">
+<h3>📱 Instagram Growth Strategy</h3>
+<p>Hashtag research, content planning & algorithm strategy.</p>
+</div>
+
+<div class="card">
+<h3>▶ YouTube Growth Optimization</h3>
+<p>SEO titles, thumbnails, retention strategy & monetization tips.</p>
+</div>
+
+<div class="card">
+<h3>📊 Content Planning & Branding</h3>
+<p>Personal brand building & niche targeting strategy.</p>
+</div>
+
+</div>
+</section>
+
+<section class="section" id="benefits">
+<h2>Why Choose Us?</h2>
+<div class="grid">
+<div class="card"><h3>100+ Projects Completed</h3></div>
+<div class="card"><h3>Fast Delivery</h3></div>
+<div class="card"><h3>Affordable Pricing</h3></div>
+<div class="card"><h3>Personal Support</h3></div>
+</div>
+</section>
+
+<section class="section booking" id="booking">
+<h2>Book Service (₹500 Advance)</h2>
+
+<form>
+<input type="text" id="name" placeholder="Full Name" required>
+<input type="email" id="email" placeholder="Email Address" required>
+<input type="tel" id="phone" placeholder="Phone Number" required>
+
+<select id="service" required>
+<option value="">Select Service</option>
+<option>Video Editing</option>
+<option>Instagram Growth</option>
+<option>YouTube Growth</option>
+<option>Full Creator Package</option>
+</select>
+
+<button type="button" class="pay-btn" onclick="payNow()">
+Pay ₹500 & Confirm
+</button>
+</form>
+
+<p id="status"></p>
+</section>
+
+<footer>
+© 2026 CreatorBoost Studio | Secure Payment via Razorpay
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
